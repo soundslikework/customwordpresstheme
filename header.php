@@ -15,16 +15,14 @@
 
 <header>
   <div class="container">
+    <img src="<?php bloginfo('template_url'); ?>/assets/logo-white.png" alt="Business Logo">
+    <h4 class="header__career">Creative Agency - Photographer - Web Development</h4>
     <h1>
       <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
         <?php bloginfo( 'name' ); ?>
       </a>
     </h1>
-
-    <?php wp_nav_menu( array(
-      'container' => false,
-      'theme_location' => 'primary'
-    )); ?>
+    <h4 class="header__social"><a href="">twitter</a> / <a href="">linkedin</a> / <a href="">pinterest</a> / <a href="">vimeo</a></h4>
   </div> <!-- /.container -->
 </header><!--/.header-->
 

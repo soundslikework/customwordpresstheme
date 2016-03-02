@@ -1,6 +1,14 @@
 <footer>
   <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+  	<div class="footerLeft">
+    	<p>Created with <i class="fa fa-heart-o"></i> by Adam Brady. All rights reserved <?php echo date('Y'); ?></p>
+    </div>
+	<div class="footerRight">
+			<?php wp_nav_menu( array( 
+		'theme_location' => 'social_bar'
+		));
+		?>
+	</div>
   </div>
 </footer>
 

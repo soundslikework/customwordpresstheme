@@ -25,6 +25,7 @@ img {
 
 body {
 	color: #333;
+	margin: 0 auto;
 }
 
 .container {
@@ -42,9 +43,25 @@ body {
 	width: 100%;
 }
 
-
-
-
+header {
+	height: 90vh;
+	width: 100%;
+	background-image: url('assets/hero.jpg');
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3)), url('assets/hero.jpg');
+	background-size: cover;
+	background-repeat: norepeat;
+	.container {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	img {
+		height: 200px;
+		width: auto;
+	}
+}
 
 
 
