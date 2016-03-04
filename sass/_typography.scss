@@ -1,15 +1,61 @@
-a {
-	color: #BA209B;
-	text-decoration: none;
-	&:hover {
-		color: #D424B1;
-	}
+$font1: 'Abril Fatface', serif;
+$font2: 'Source Sans Pro', sans-serif;
+$font3: 'Rock Salt', serif;
+$font4: 'Shadows Into Light', serif;
+
+$mainColor: #0093C9;
+$mainBG: #333;
+$fontColor: #E1E2DD;
+$accentColor: #F3302E;
+$accentColor2: #BBE5EA;
+
+/* HEADINGS */
+h1 {
+	font-family: $font3;
+}
+h3, h4 {
+	color: $fontColor;
+	font-family: $font2;
 }
 
+/* LINKS */
+
+a {
+	color: $fontColor;
+	text-decoration: none;
+	transition: all 0.5s;
+	&:hover {
+		color: $accentColor;
+	}
+}
+nav ul li a {
+	color: $mainBG;
+	&:hover {
+		background: $accentColor2;
+	}
+}
 /* paragraphs */
 
+h2, p {
+	font-family: $font2;
+	color: $mainBG;
+}
 p {
 	line-height: 1.5;
+}
+.footer {
+	background: $mainBG;
+	color: $fontColor;
+}
+.footer h2, p {
+	color: $fontColor;
+}
+.footerRight i {
+		color: $fontColor;
+		transition: all 0.5s;
+		&:hover {
+			color: $accentColor;
+		}
 }
 
 /*blockquotes*/
@@ -22,6 +68,7 @@ blockquote {
 		margin-top: 0;
 	}
 }
+
 
 /*tables*/
 
@@ -48,9 +95,9 @@ dd {
 
 /*lists*/
 
-ul li, ol li {
-	padding: 3px;
-}
+// ul li, ol li {
+// 	padding: 3px;
+// }
 
 /*PRE*/
 

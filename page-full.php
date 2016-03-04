@@ -7,6 +7,7 @@
 get_header();  ?>
 
 <div class="main">
+<?php get_template_part(nav)?>
   <div class="container">
     <?php // Start the loop ?>
     <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
