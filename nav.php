@@ -1,6 +1,6 @@
 <div class="main">
 	<nav>
-		<div class="container">
+		<div class="navContainer">
 		<div class="navLeft">
 			<img src="<?php bloginfo('template_url'); ?>/assets/logo-black.png"	alt="business logo">
 		</div>

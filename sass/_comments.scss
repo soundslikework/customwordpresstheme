@@ -43,7 +43,7 @@ h3 {
 
 .commentlist {
 	ol {
-		list-style: decimal;
+		list-style: none;
 	}
 	.avatar {
 		position: absolute;
@@ -66,6 +66,10 @@ h3 {
 .comment-meta {
 	font-size: 12px;
 	margin: 0 0 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
 	a {
 		&:link, &:visited {
 			color: #888888;
@@ -115,9 +119,6 @@ a.comment-edit-link {
 	}
 }
 
-// input[type=submit] {
-// 	color: #333333;
-// }
 
 #respond {
 	margin-top: 24px;

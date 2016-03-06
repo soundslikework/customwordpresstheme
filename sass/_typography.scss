@@ -108,6 +108,9 @@ nav ul li a {
 	}
 }
 .sidebar {
+	.textwidget {
+		color: $fontColor;
+	}
 	.widget-title {
 		color: $accentColor;
 	}

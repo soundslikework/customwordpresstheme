@@ -8,6 +8,11 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	@media(max-width: 790px) {
+		width: 100%;
+		margin: 0 auto;
+		flex-direction: column-reverse;
+	}
 }
 .article2 {
 	width: 75%;
@@ -16,10 +21,19 @@
 	flex-direction: row-reverse;
 	justify-content: space-between;
 	align-items: center;
+	@media(max-width: 790px) {
+		width: 100%;
+		margin: 0 auto;
+		flex-direction: column-reverse;
+	}
 }
 .staffMembers__text {
 	width: 75%;
 	padding: 50px;
+	@media(max-width: 790px) {
+		width: 100%;
+		padding: 10px;
+	}
 	h3 {
 		color: $accentColor;
 		border-bottom: 1px solid $mainBG;

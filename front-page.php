@@ -31,6 +31,7 @@
 	    </section><!--end About us -->
 	    <section id="prevWork">
 	    	<h2 class="sectionTitle">Recent Projects</h2>
+	    	<div class="prevWork__lists">
 	    	<ul class="prevWork__list1">
 	    		<li class="prevWork__1">
 	    			<span class="prevWork__caption">
@@ -75,6 +76,7 @@
 	    			</span>	    		
 	    		</li>
 	    	</ul>
+	    	</div>
 	    </section><!-- end Work -->
 	    <section id="pricing">
 	   		<h2 class="sectionTitle">Pricing</h2>
@@ -89,7 +91,7 @@
 	    				<li>Mixing</li>
 	    				<li>Unlimited access to studio for 7 days</li>
 	    			</ul>
-	    			<button>Start Your Project!</button>
+	    			<button class="startButton">Start Your Project!</button>
 	    		</li>
 	    		<li class="pricing__listItem">
 	    			<h3>Extended</h3>
@@ -101,7 +103,7 @@
 	    				<li>Mixing By In-House MixMaster Sessue Hayakawa</li>
 	    				<li>Unlimited access to studio for 7 days</li>
 	    			</ul>
-	    			<button>Start Your Project!</button>
+	    			<button class="startButton">Start Your Project!</button>
 	    		</li>
 	    		<li class="pricing__listItem">
 	    			<h3>Gold</h3>
@@ -114,7 +116,7 @@
 	    				<li>Mixing By In-House MixMaster Sessue Hayakawa</li>
 	    				<li>Unlimited access to studio for 14 days</li>
 	    			</ul>
-	    			<button>Start Your Project!</button>
+	    			<button href="#newsletterSignup" class="startButton">Start Your Project!</button>
 	    		</li>
 	    	</ul>
 	    </section><!--end Pricing -->

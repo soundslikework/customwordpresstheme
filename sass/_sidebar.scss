@@ -3,6 +3,9 @@
 	float: left;
 	padding: 25px;
 	background: $mainBG;
+	@media(max-width: 790px) {
+		width: 50%;
+	}
 	.widget-title {
 		border-bottom: 1px solid $fontColor;
 	}

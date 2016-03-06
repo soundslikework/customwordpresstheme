@@ -34,10 +34,20 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+	@media(max-width: 480px) {
+		margin-top: 50px;
+	}
+}
+.navContainer {
+	max-width: 1200px;
+	margin: 0 auto;
 }
 .content {
 	float: left;
 	width: 70%;
+	@media(max-width: 790px) {
+		width: 50%;
+	}
 }
 .full {
 	width: 100%;

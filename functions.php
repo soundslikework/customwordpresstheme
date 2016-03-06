@@ -76,6 +76,14 @@ function hackeryou_scripts() {
   );
 
   wp_enqueue_script(
+    'smoothscroll', //handle
+    get_template_directory_uri() . '/js/jquery-smooth-scroll/smooth-scroll.js', //source
+    false, //dependencies
+    null, // version number
+    true //load in footer
+  );
+
+  wp_enqueue_script(
     'scripts', //handle
     get_template_directory_uri() . '/js/main.min.js', //source
     array( 'jquery', 'plugins' ), //dependencies
