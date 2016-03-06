@@ -42,6 +42,26 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+			textarea {
+				width: 50%;
+				margin: 0 auto;
+				padding: 5px;
+				background-color: #333;
+				border: none;
+				border-bottom: 1px solid black;
+		}
+		.wpcf7-submit {
+			background-color: $accentColor;
+			color: $mainBG;
+			transition: all 0.5s;
+			font-weight: bold;
+			border: none;
+			padding: 10px 15px;
+			border-radius: 20px;
+			&:hover {
+				background-color: $fontColor;
+			}
+		}
 	}
 .formRow {
 	width: 100%;
@@ -49,16 +69,13 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	.wpcf7 input[type="text"], .wpcf7 input[type="number"]	{
-		width: 50%;
+	padding: 5px 0;
+	.wpcf7-text, .wpcf7-number	{
+		width: 95%;
+		border: none;
+		border-bottom: 1px solid black;
 		background-color: #333;
-		padding: 0;
-	}
-	.wpcf7 textarea {
-		width: 50%;
-		margin: 0 auto;
-		padding: 0;
-		background-color: red;
+		padding: 5px;
 	}
 }
 .footerLeft {

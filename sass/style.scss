@@ -7,12 +7,18 @@
 * Author URI: http://hackeryou.com
 */
 
-@import 'normalize';
-@import 'typography';
-@import 'navigation';
-@import 'sidebar';
-@import 'comments';
-@import 'footer';
+@import 'normalize';  /* normalize.css */
+@import 'typography'; /* all typography and color style */
+@import 'header'; /* all header layouts save hero image */
+@import 'navigation'; /* all nav layouts */
+@import 'sidebar'; /* all sidebar layouts */
+@import 'comments'; /* all comment layouts */
+@import 'footer'; /* all footer layouts */
+@import 'frontpage'; /* all frontpage layouts */
+@import 'staff'; /* all staff layouts */
+@import 'about'; /* all about page layouts */
+@import 'blog';
+
 /*
 ====================================
 Default Styling
@@ -22,45 +28,17 @@ Default Styling
 img {
 	max-width: 100%;
 }
-
 body {
-	color: #333;
 	margin: 0 auto;
 }
-
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
 }
-
 .content {
 	float: left;
 	width: 70%;
 }
-
 .full {
 	width: 100%;
 }
-
-header {
-	height: 100vh;
-	width: 100%;
-	background-size: cover;
-	background-repeat: norepeat;
-	background-position: center;
-	.container {
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	img {
-		height: 200px;
-		width: auto;
-	}
-}
-
-
-
-

@@ -5,7 +5,7 @@
 */
 
 get_header();  ?>
-
+<?php get_template_part(hero)?>
 <div class="main">
 <?php get_template_part(nav)?>
   <div class="container">

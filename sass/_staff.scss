@@ -1,0 +1,33 @@
+#staffMembers {
+	width: 100%;
+}
+.article1 {
+	width: 75%;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.article2 {
+	width: 75%;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+}
+.staffMembers__text {
+	width: 75%;
+	padding: 50px;
+	h3 {
+		color: $accentColor;
+		border-bottom: 1px solid $mainBG;
+	}
+}
+.staffMembers__pic {
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+	border-radius: 50%;
+}

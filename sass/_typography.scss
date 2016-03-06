@@ -4,20 +4,93 @@ $font3: 'Rock Salt', serif;
 $font4: 'Shadows Into Light', serif;
 
 $mainColor: #0093C9;
-$mainBG: #333;
-$fontColor: #E1E2DD;
+$mainBG: #3b3c3d;
+$fontColor: #fefefe;
 $accentColor: #F3302E;
 $accentColor2: #BBE5EA;
 
 /* HEADINGS */
 h1 {
 	font-family: $font3;
+	letter-spacing: 0.2rem;
 }
 h3, h4 {
 	color: $fontColor;
 	font-family: $font2;
 }
+/* paragraphs */
 
+h2, p {
+	font-family: $font2;
+	color: $mainBG;
+}
+p {
+	line-height: 1.5;
+}
+body {
+	color: $mainBG;
+	background: $fontColor;
+}
+.content {
+	p {
+		color: $mainBG;
+	}
+}
+.sectionTitle {
+	color: $accentColor;
+}
+#aboutUs {
+	color: $fontColor;
+	ul li {		
+	background: lighten($mainBG,20%);
+	}
+	h3, p, i {
+	color: $fontColor;
+	}
+}
+#prevWork {
+	background: $fontColor;
+	.prevWork__caption {
+		background-color: rgba(0,0,0,0.8);	
+	   p {
+			color: $fontColor;
+		    }	
+	}
+}
+#pricing {
+	background: $mainBG;
+	button {
+		background: $accentColor;
+		color: $fontColor;
+	}
+	ul.pricing__list {
+		h3 {
+			color: $accentColor;
+		}
+		li {
+			background: $fontColor;
+		}
+	}
+}
+#latestPost {
+		background: $fontColor;
+		color: black;
+}
+#newsletterSignup {
+	padding-bottom: 0px;
+	h2 {
+		color: $accentColor;
+	}
+	background: $mainBG;
+	button {
+		background: $accentColor;
+	}
+}
+.blogPost {
+	h2, h3, h4, p, a {
+		color: $mainBG;
+	}
+}
 /* LINKS */
 
 a {
@@ -34,21 +107,20 @@ nav ul li a {
 		background: $accentColor2;
 	}
 }
-/* paragraphs */
-
-h2, p {
-	font-family: $font2;
-	color: $mainBG;
-}
-p {
-	line-height: 1.5;
+.sidebar {
+	.widget-title {
+		color: $accentColor;
+	}
 }
 .footer {
 	background: $mainBG;
 	color: $fontColor;
-}
-.footer h2, p {
-	color: $fontColor;
+	p {
+		color: $fontColor;
+	}
+	h2 {
+		color: $accentColor;
+	}
 }
 .footerRight i {
 		color: $fontColor;
@@ -92,12 +164,6 @@ dd {
 	padding: 10px;
 	margin-left: 10px;
 }
-
-/*lists*/
-
-// ul li, ol li {
-// 	padding: 3px;
-// }
 
 /*PRE*/
 

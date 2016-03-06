@@ -5,17 +5,22 @@
  		<h2>Our Studio</h2>
  		<p>Placeholder text is a thing we have here</p>
  			<ul>
- 				<li>
+ 				<li><a href="mailto:soundslikework@gmail.com">
  					<i class="fa fa-envelope-o fa-2x"></i>
  					<p>soundslikework@gmail.com</p>
+ 					</a>
  				</li>
  				<li>
+ 					<a href="https://goo.gl/maps/wGAjf1nVYvP2">
  					<i class="fa fa-map-marker fa-2x"></i>
  					<p>483 Queen St West, Toronto ON</p>
+ 					</a>
  				</li> 				
  				<li>
+ 					<a href="tel:416-967-1111">
  					<i class="fa fa-phone fa-2x"></i>
  					<p>(416) 967-1111</p>
+ 					</a>
  				</li>
  			</ul>
  	</div>
@@ -26,14 +31,6 @@
  		<fieldset>
  		<?php echo do_shortcode( '[contact-form-7 id="14" title="Footer Contact"]' ); ?>
  		</fieldset> 		
- <!-- 		<fieldset>
- 			<input type="text" placeholder="Full Name" name="name">
- 			<input type="text" placeholder="Email" name="email">
- 			<input type="number" placeholder="Phone" name="phone">
- 			<input type="text" placeholder="Website" name="website">
- 			<textarea name="message" id="" cols="30" rows="10"></textarea>
- 			</fieldset>
-			<input type="submit" value="Submit"> -->
  		</form>
  	</div>
   	<div class="footer__credits">

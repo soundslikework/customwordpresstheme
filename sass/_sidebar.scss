@@ -1,6 +1,11 @@
 .sidebar {
 	width: 30%;
 	float: left;
+	padding: 25px;
+	background: $mainBG;
+	.widget-title {
+		border-bottom: 1px solid $fontColor;
+	}
 	ul {
 		margin: 0;
 		padding: 0;
